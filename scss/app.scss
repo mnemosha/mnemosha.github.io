@@ -1,0 +1,160 @@
+body {
+  background-color: #4C535C;
+  font: 12px Arial, Helvetica, sans-serif;
+  padding: 50px 0 50px 0;
+  overflow-y: scroll;
+}
+
+.content {
+  background: white;
+  margin: auto;
+  width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  overflow: hidden;
+
+  .header {
+    padding: 5px 40px 0px 40px;
+    .top-block {
+      background-color: #eee;
+      border: 1px solid #ddd;
+      border-top: none;
+      height: 30px;
+      margin-bottom: 40px;
+      margin-top: -5px;
+    }
+    .personal-info {
+      overflow: hidden;
+      .photo {
+        border: 1px solid #ddd;
+        float: left;
+        height: 100px;
+        width: 100px;
+      }
+      .information {
+        padding: 25px;
+        margin-left: 100px;
+        .name {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .job-title {
+          font-size: 18px;
+          font-weight: normal;
+          color: #3279BB;
+        }
+      }
+    }
+  }
+
+  .separator {
+    height: 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #F8F8F8;
+  }
+
+  .sections {
+    padding: 30px 40px 30px 40px;
+    .section {
+      .section-name {
+        color: #3279bb;
+        font-size: 23px;
+        border-top: 3px solid #DBDEE2;
+        width: 150px;
+        float: left;
+        padding-top: 10px;
+        margin-top: -1px;
+      }
+      .section-items {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        margin-left: 150px;
+        list-style: none;
+        .section-item {
+          border-top: 1px solid #DBDEE2;
+          padding: 10px 15px;
+          overflow: hidden;
+          a {
+            color: #0000FF;
+          }
+          .topic {
+            font-weight: bold;
+            display: block;
+            float: left;
+            width: 150px;
+          }
+          .topic-item {
+            margin-left: 150px;
+          }
+          .rate {
+            width: 140px;
+            height: 30px;
+            display: inline-block;
+            &.level-1 {
+              background: #ffffff url(../images/level-1.jpg) no-repeat top left;
+            }
+            &.level-2 {
+              background: #ffffff url(../images/level-2.jpg) no-repeat top left;
+            }
+            &.level-3 {
+              background: #ffffff url(../images/level-3.jpg) no-repeat top left;
+            }
+            &.level-4 {
+              background: #ffffff url(../images/level-4.jpg) no-repeat top left;
+            }
+            &.level-5 {
+              background: #ffffff url(../images/level-5.jpg) no-repeat top left;
+            }
+            &.level-6 {
+              background: #ffffff url(../images/level-6.jpg) no-repeat top left;
+            }
+            &.level-7 {
+              background: #ffffff url(../images/level-7.jpg) no-repeat top left;
+            }
+          }
+          h2 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #272D36;
+            margin-bottom: 0;
+            margin-top: 0;
+          }
+          h3 {
+            margin-top: 0;
+            font-size: 14px;
+            padding-bottom: 10px;
+            font-weight: normal;
+          }
+          h4 {
+            font-size: 12px;
+            float: right;
+            font-weight: normal;
+            color: #666;
+            margin-bottom: 0;
+            margin-top: 0;
+          }
+          p {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    padding: 0px 40px 30px 40px;
+    height: 70px;
+    .copyright {
+      color: #666;
+      float: left;
+      padding-top: 25px;
+    }
+  }
+  .about {
+    padding: 30px 40px 30px 40px;
+  }
+  .blog {
+    padding: 30px 40px 30px 40px;
+  }
+}

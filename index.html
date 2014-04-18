@@ -1,11 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="application">
 <head>
-    <title></title>
+    <title>Egor Koshelko</title>
+    <meta charset="utf-8"/>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular-route.min.js"></script>
+
+    <link rel="stylesheet" href="/css/app.css"/>
 </head>
 <body>
 
-Сайт резюме нахуй
+
+<div class="content">
+    <div class="header">
+        <div class="top-block"></div>
+        <div class="personal-info">
+            <div class="photo"></div>
+            <div class="information">
+                <div class="name">
+                    Egor Koshelko
+                </div>
+                <div class="job-title">
+                    Senior Front-End developer
+                </div>
+            </div>
+            <div style="float: right">
+                skype: egor.koshelko <br/>
+                email: egor.koshelko@gmail.com <br/>
+                blog: <a href="http://mnemosha.blogspot.ru/">мой блог</a><br/>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
+        <div class="sections">
+            <div class="section">
+                <div class="section-name">
+                    <i>Обо мне</i>
+                </div>
+                <ul class="section-items">
+                    <li class="section-item">
+                        Я крут
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-name">
+                    <i>Опыт работы</i>
+                </div>
+                <ul class="section-items">
+                    <li class="section-item">
+                        <h4>Jul 2008 - Present (8 месяцев)</h4>
+
+                        <h2>Front-End Developer</h2>
+
+                        <h3><a href="http://kliniki-online.ru">kliniki-online.ru</a></h3>
+
+                        <p>
+                            Портал для поиска и записи в клиники на прием через сайт. Этот сайт комбинировал в себе две парадигмы: серверную шаблонизацию (для контента, который должен был быть проиндексирован поисковиками) и Rest API (для администраторской панели). Несмотря на то что использовалась серверная шаблонизация мне удалось интегрировать ее с AngularJs. В команде был 1 серверный разработчик, 1 тестировщик и я (Front-End).
+                        </p>
+                        <br/>
+
+                        <p>Front-End технологии:</p>
+                        <ul>
+                            <li>ExtJs</li>
+                            <li>AngularJs</li>
+                            <li>Freemarker</li>
+                            <li>Scss</li>
+                        </ul>
+
+                        <p>Back-End технологии:</p>
+                        <ul>
+                            <li>Java</li>
+                            <li>Spring MVC</li>
+                            <li>Hibernate</li>
+                            <li>Sphinx</li>
+                            <li>MySql</li>
+                        </ul>
+
+                        <p>Остальные</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>Jira</li>
+                            <li>Jenkins</li>
+                        </ul>
+
+                        <h4 class="details">скриншоты</h4>
+                    </li>
+
+                    <li class="section-item">
+                        <h4>Jul 2008 - Present (8 месяцев)</h4>
+
+                        <h2>Front-End Developer</h2>
+
+                        <h3><a href="http://bombermine.com">bombermine.com</a></h3>
+
+                        <p>
+                            bombermine.com это браузерная HTML5 - online игра, со стандартными наворотами, типа перков, статистики, чата, турниров. Т.к. это стартап, то людей там очень мало (3 разработчика включая меня и 1 тестер). Я в основном занимался разработкой клиентской части.
+                        </p>
+                        <br/>
+
+                        <p>Используемые технологии в проекте:</p>
+                        <ul>
+                            <li>AngularJs</li>
+                            <li>ExtJs</li>
+                            <li>Playframework!</li>
+                            <li>Scala</li>
+                            <li>Mercurial</li>
+                        </ul>
+                        <h4 class="details">скриншоты</h4>
+                    </li>
+
+                    <li class="section-item">
+                        <h4>Jul 2008 - Present (8 месяцев)</h4>
+
+                        <h2>Front-End Developer</h2>
+
+                        <h3>R&D Dept.</h3>
+
+                        <p>
+                            Я разрабатывал CRM систему для операторов call-центра "Чистая-вода", компания продает воду в бутылях и развозит ее клиентам. Серверная часть была написана на PHP и состояла из ~100000 Lines of code и JavaScript часть состояла из ~10000 Lines of code.
+                        </p>
+                        <br/>
+
+                        <p>технологии в проекте:</p>
+                        <ul>
+                            <li>AngularJs</li>
+                            <li>Playframework!</li>
+                            <li>Scala</li>
+                            <li>Mercurial</li>
+                        </ul>
+                        <h4 class="details">скриншоты</h4>
+                    </li>
+
+                    <li class="section-item">
+                        <h4>Jul 2008 - Present (8 месяцев)</h4>
+
+                        <h2>Back-End / Front-End Developer</h2>
+
+                        <h3>Federal Cadastre Centre "Land" (<a href="http://gosuslugi.ru">www.gosuslugi.ru</a>)</h3>
+
+                        <p>
+                            Один из проектов компании это - портал для автоматизации государственных услуг. Конкретно я занимался автоматизацией постановки земельных участков на кадастровый учет. Так же я разрабатывал администраторску панель на том же стеке технолгий. Использовалась серверная шаблонизация.
+                        </p>
+                        <br/>
+
+                        <p>Используемые технологии в проекте:</p>
+                        <ul>
+                            <li>jQuery</li>
+                            <li>FreeMarker</li>
+                            <li>Java</li>
+                            <li>Spring MVC</li>
+                            <li>Oracle</li>
+                            <li>SVN</li>
+                            <li>Maven</li>
+                        </ul>
+                        <h4 class="details">скриншоты</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-name">
+                    <i>Скилы</i>
+                </div>
+                <ul class="section-items">
+                    <li class="section-item">
+                        <span class="topic">Languages</span>
+                        <p class="topic-item"> JavaScript (4 года) <b> 9/10 </b> </p>
+                        <p class="topic-item"> Java (1 год) <b> 4/10 </b> </p>
+                        <p class="topic-item"> Scala (пол года) <b> 4/10 </b> </p>
+                    </li>
+                    <li class="section-item">
+                        <span class="topic">Front-end</span>
+                        <p class="topic-item"> ExtJs (1 год) <b> 7/10 </b> </p>
+                        <p class="topic-item"> AngularJs (1 год) <b> 8/10 </b> </p>
+                        <p class="topic-item"> underscore.js (2 года) <b> 8/10 </b> </p>
+                        <p class="topic-item"> jQuery (1 год) <b> 6/10 </b> </p>
+                        <p class="topic-item"> SCSS (1 год) <b> 6/10 </b> </p>
+                        <p class="topic-item"> CSS  (2 года) <b> 8 / 10 </b> </p>
+                    </li>
+                    <li class="section-item">
+                        <span class="topic">Системы контроля версий</span>
+                        <p class="topic-item"> Git (2 года) <b> 7 / 10  </b> </p>
+                        <p class="topic-item"> Mercurial (1 года) <b> 5 / 10  </b> </p>
+                        <p class="topic-item"> SVN (1 год) <b> 5 / 10  </b> </p>
+                    </li>
+                    <li class="section-item">
+                        <span class="topic">Tools</span>
+                        <p class="topic-item"> Intellij IDEA, WebStorm (4 года) <b> 8 / 10  </b> </p>
+                        <p class="topic-item"> Chrome Dev Tools (4 года) <b> 8 / 10  </b> </p>
+                        <p class="topic-item"> Photoshop (1 года) <b> 4 / 10  </b> На уровне нарезки макет </p>
+                        <p class="topic-item"> Linux (1 год) <b> 3 / 10  </b> </p>
+                        <p class="topic-item"> Jira (1 год) </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-name">
+                    <i>Образование</i>
+                </div>
+                <ul class="section-items">
+                    <li class="section-item"><span class="topic">Name:</span> Список прочитанных книг </li>
+                    <li class="section-item"><span class="topic">Age:</span> Сертификаты </li>
+                    <li class="section-item"><span class="topic">Country:</span> Курсы на coursera </li>
+                </ul>
+            </div>
+        </div>
+    <div class="separator"></div>
+    <div class="footer">
+        <p class="copyright">© 2014 Egor Koshelko. All rights reserved.</p>
+    </div>
+</div>
+
+<script src="init.js"></script>
 
 </body>
 </html>
